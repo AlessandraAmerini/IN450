@@ -33,7 +33,7 @@ unsigned char state[4][4] = {{0}};
 unsigned char RoundKey[240];
 
 // Chiave data in input  
-unsigned char Key[32]={0};
+unsigned char Key[16]={0};
 
 // La matrice 16x16 
 int getSBoxValue(int num)
