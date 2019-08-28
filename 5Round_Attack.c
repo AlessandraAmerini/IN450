@@ -131,7 +131,7 @@ int main()
     if(GrassiAttack(ciphertext))
     {
         printf("Attacco riuscito\n");
-        printf("\nLa diagonale della chiave e': %x:%x:%x:%x\n",out[0],out[5],out[10],out[15]);
+        printf("\nLa diagonale della chiave e': %x:%x:%x:%x\n",Key[0],Key[5],Key[10],Key[15]);
         return 0;
     }
     
